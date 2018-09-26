@@ -1,0 +1,38 @@
+<div class="category-list">
+	<!-- Cabeçalho -->
+	<div class="row">
+	  <div class="column-6">
+		<h2>Categorias</h2>
+		<span id="breadcrumb"></span>
+		<hr />
+	  </div>
+	</div>
+	<!-- Fim do cabeçalho -->
+
+	<!-- Ações das ações de edição -->
+	<div class="row">
+	  <div class="column-4">
+		<a class="link-button category-new"><i class="fa fa-file-o"></i> Novo &nbsp;</a>
+	  </div>
+	  <div class="column-2 right">
+		<input type="text" placeholder="Buscar">
+		<i class="fa fa-search"></i>
+	  </div>
+	</div>
+	<!-- Fim das ações de edição -->
+
+	<!-- Conteúdo -->
+	<div class="row">
+	  <div class="column-6">
+		<table id="category-table" class="content-data">
+			<tr>
+				<th></th>
+				<th class="right">Código</th>
+				<th>Descrição</th>
+			</tr>
+		</table>
+	  </div>
+	</div>
+	<!-- Fim do conteúdo -->
+</div>
+<script>getCategories();</script>

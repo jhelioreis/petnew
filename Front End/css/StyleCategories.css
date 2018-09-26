@@ -1,0 +1,33 @@
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.action{
+    text-align: left;
+    width: 100%;
+}
+
+.searchProduct{
+    float: right;
+}
+
+.div .tableCategories{
+    border:1px solid black;
+    width: 100%;
+}
+
+.check{
+    width: 20%;
+}
+
+.code{
+    width: 30%;
+}
+
+.description{
+    width: 50%;
+}
+
+.controlPage{
+    text-align: center;
+}

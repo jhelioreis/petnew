@@ -1,0 +1,229 @@
+/* Arquivos externos */
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
+/* Fim dos arquivos externos */
+
+/* Variáveis globais */
+:root {
+	--color-1: #31659C;
+	--color-2: #4A79A5;
+	--color-3: #639ACE;
+	--color-4: #94BAE7;
+	--color-5: #FFFFFF;
+	--color-6: #011F3A;
+}
+/* Fim das variáveis globais */
+
+/* Controles gerais */
+.container {
+	height: 100%;
+	width: 98%;
+	min-width: 600px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+.container-border-right {
+	border-right: 10px solid var(--color-1);
+}
+
+.img-logo {
+	width: 80%;
+	margin: auto;
+}
+
+.link-logo {
+	text-decoration: none;
+	color: var(--color-5);
+	font-family: 'New Rocker', sans-serif;
+	font-size: 2em;
+}
+
+.link-button {
+	text-decoration: none;
+}
+
+.link-button + .link-button {
+	padding-left: 15px;
+}
+
+.content-data {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.content-data > td,
+.content-data > th {
+	cellspacing: 5px;
+}
+
+/* Fim dos controles gerais */
+
+/* Controles para o grid */
+.row {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row:after {
+	display: block;
+  content: "";
+  clear: both;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6 {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  float: left;
+	height: 100%;
+}
+
+.column + .column {
+  margin-left: 1.6%;
+}
+
+.column-1 {
+	width: 16.5%;
+}
+
+.column-2 {
+	width: 33.0%;
+}
+
+.column-3 {
+	width: 49.5%;
+}
+
+.column-4 {
+	width: 66.0%;
+}
+
+.column-5 {
+	width: 82.5%;
+}
+
+.column-6 {
+	width: 99.0%;
+}
+/* Fim dos controles do grid */
+
+/* Controle do alinhamento do conteúdo dos componentes */
+.left {
+	text-align: left;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+	margin-right: 5px;
+}
+
+.bottom {
+	vertical-align: bottom;
+}
+
+.middle {
+	vertical-align: middle;
+}
+
+.top {
+	vertical-align: top;
+}
+/* Fim do controle do alinhamento do conteúdo dos componentes */
+
+/* Configuração da largura de componentes */
+.width-25 {
+	width: 25%;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.width-75 {
+	width: 75%;
+}
+
+.width-100 {
+	width: 100%;
+}
+/* Fim da configuração da largura de componentes */
+
+/* Configuração de cores e fontes */
+.default-scheme {
+	background-color: var(--color-1);
+	color: var(--color-5);
+	font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	line-height: 150%;
+}
+
+.content-scheme {
+	padding: 20px;
+	background-color: var(--color-5);
+	color: var(--color-6);
+	font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	line-height: 150%;
+	border-radius: 15px;
+}
+/* Fim da configuração de cores e fontes */
+
+/* Controle das tags html */
+header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+nav ul,
+nav li {
+	list-style-type: none;
+	text-align: center;
+	padding: 5px;
+}
+
+nav li:hover {
+	color: var(--color-6);
+	background-color: var(--color-4);
+	font-weight: 700;
+}
+
+input {
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+/* Fim dos controle das tags html*/
+
+/* Controle de tags específicas */
+#content {
+	height:100%;
+}
+
+#breadcrumb {
+	font-size: 10pt;
+}
+/* Fim do controle de tags específicas */

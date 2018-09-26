@@ -1,0 +1,25 @@
+form{
+
+}
+
+fieldset{
+    margin: 0 auto;
+    width: 17%;
+}
+
+label{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.userLogin{
+
+}
+
+.userPassword{
+    margin: 0 auto;
+}
+
+.submit{
+
+}

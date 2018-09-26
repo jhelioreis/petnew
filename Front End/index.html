@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PetShow - Tudo para os seus pets, em um só lugar</title>
+
+    <!-- Carregamento de estilos -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- Fim do carregamento de estilos -->
+  </head>
+
+  <body>
+    <!-- Container -->
+		<div class="container default-scheme">
+
+      <!-- Cabeçalho -->
+      <header class="row">
+
+        <!-- Logo -->
+  			<div class="column-1 center">
+          <a href="index.html" class="link-logo"><i class="fa fa-paw"></i>&nbsp;PetShow</a>
+        </div>
+        <!-- Fim logo -->
+
+			  <!-- Banner -->
+    		<div class="column-3 center">
+          &nbsp;
+        </div>
+        <!-- Fim banner -->
+
+    		<!-- Busca -->
+    		<div class="column-2 right">
+    			<input type="text" name="search">
+    			<input type="submit" name="inputSearch" value="Buscar">
+        </div>
+        <!-- Fim busca -->
+
+      </header>
+      <!-- Fim do cabeçalho -->
+
+      <!-- Conteúdo -->
+      <div class="row">
+
+        <!-- Menu -->
+        <div class="column-1">
+          <nav>
+            <ul>
+              <li onclick="javascript:fillContent('Início','home')">Inicio</li>
+              <li onclick="javascript:fillContent('Clientes','listClients')">Clientes</li>
+              <li onclick="javascript:fillContent('Fornecedores','listProviders')">Fornecedores</li>
+              <li onclick="javascript:fillContent('Categorias','listCategories');">Categorias</li>
+              <li onclick="javascript:fillContent('Produtos','listProducts')">Produtos</li>
+              <li onclick="javascript:fillContent('Sobre','about')">Sobre</li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Fim do menu -->
+
+        <!-- Conteúdo principal -->
+        <div id="content" class="column-5 content-scheme">
+          &nbsp;
+        </div>
+        <!-- Fim do conteúdo principal -->
+
+      </div>
+      <!-- Fim do conteúdo -->
+
+      <!-- Rodapé -->
+      <footer class="row center">
+
+        <!-- Midias sociais -->
+        <div class="column-2">
+          &nbsp;
+        </div>
+        <!-- Fim das midias sociais -->
+
+        <!-- Endereço -->
+        <div class="column-2 center">
+          <p>
+            &copy; Todos os direitos reservados
+            <br />Avenida das Nações, 1760 - Centro
+            <br />+55 47 3231 0545
+          </p>
+        </div>
+        <!-- Fim do endereço -->
+
+        <!-- Copyright -->
+        <div class="column-2 center">
+          &nbsp;
+        </div>
+        <!-- Fim do copyright -->
+
+      </footer>
+      <!-- Fim do rodapé -->
+
+		</div>
+    <!-- Fim do container -->
+
+    <!-- Carregamento scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Fim do carregamento de scripts -->
+    </body>
+</html>
